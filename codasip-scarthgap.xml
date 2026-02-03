@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="yocto" fetch="https://git.yoctoproject.org/" />
+  <remote name="openembedded" fetch="https://git.openembedded.org/" />
+  <remote name="kraj" fetch="https://github.com/kraj/" />
+  <remote name="cheri-alliance" fetch="https://github.com/CHERI-Alliance/" />
+
+  <project name="poky" remote="yocto" path="poky" revision="9497778a4d756daa29c4fa8d45d1a242d63ab8cc" />
+  <project name="meta-openembedded" remote="openembedded" path="meta-openembedded" revision="b4812b18eec77e9f0286bd6b81a5c3032ac0d3be" />
+  <project name="meta-clang" remote="kraj" path="meta-clang" revision="bd49e0622770941600e52d005c2944f7ede912b0" />
+  <project name="meta-cheri" remote="cheri-alliance" path="meta-cheri" revision="codasip-scarthgap" />
+
+</manifest>
